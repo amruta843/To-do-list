@@ -1,0 +1,56 @@
+ul{
+    list-style:none;
+
+}
+body{
+    background: url("https://media.istockphoto.com/id/1129051558/photo/blank-product-stand-with-neon-lights.webp?b=1&s=170667a&w=0&k=20&c=VAE7XvCd0yWS1qYo9Kfc0uOxPhUNIM52rBqGKHexpKs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.row {
+    justify-content: center;
+}
+
+#todoForm .todoItemGroup{
+    flex-grow: 1;
+}
+
+#todoForm .todoItemGroup input{
+    display: block;
+    width: 100%;
+    
+}
+#todoForm .todoItemGroup input:focus
+{
+    color:red;
+    text-shadow: 0 0 3px #e2ee35;
+    font-weight: 600;
+    background-color:aqua;
+}
+#todoList i{
+    cursor: pointer;
+}
+
+#todoList .edit{
+    color: #0000ff;
+}
+#todoList .edit:hover{
+    color: orangered;
+    
+}
+
+#todoList .delete{
+    color: orangered;
+}
+#todoList .delete:hover{
+    color:#0000ff;
+}
+.list-group-item{
+    box-shadow: 0px 5px 5px orangered;
+}
+.list-group-item:hover{
+    box-shadow: 0px 0px 5px rgb(29, 10, 4);
+    background-color: rgb(225, 88, 238);
+}
